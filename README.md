@@ -1,7 +1,7 @@
-# 2022C12(elements) トレンド掲示板
+# トレンド掲示板
 
 pythonのAPIであるpyTrendsからSQLDBへデータを格納し、
-PHP上で表示する掲示板 http://xs227928.xsrv.jp/trends/main.php
+PHP上で表示する掲示板
 |ディレクトリ|説明|
 |----|----|
 |trends|HPを構成するPHPが格納されている|
