@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  /* 文字のフォント */
+}
+
+a {
+  text-decoration: none;
+  /*下線をなくす*/
+}
+
+.header {
+  position: relative;
+  vertical-align: middle;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  border-bottom: solid 2px rgb(75, 73, 73);
+}
+
+.top img {
+  margin-top: 0.7rem;
+  margin-left: 0.7rem;
+
+  width: 5rem;
+  border-radius: 0.7rem;
+}
+
+
+
+.title img {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  
+  width: 42rem;
+  height: 5rem;
+}
+
+.contenttitle {
+  display: flex;
+}
+
+.languege{
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+}
+
+.search {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  display: flex;
+  
+
+
+}
+
+#sbox{
+  width: 10rem;
+  height: 2.5rem;
+}
+
+#sbtn{
+  margin-right: 3rem;
+  margin-left: 0.5rem;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.7rem;
+  
+}
+
+
+
+.login {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+  list-style: none;
+
+}
+
+.login img {
+
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.7rem;
+
+}
+
+#mypage{
+ margin-top: 1.15rem;
+ 
+}
+
+
+
+
+.main {
+
+  display: flex;
+
+  min-height: 100vh;
+}
+
+.sidebar {
+  top: 0;
+  min-width: 16%;
+  /*幅を常に50％表示させる*/
+  max-width: 16%;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+  border: 1px solid rgb(2, 2, 2);
+  
+}
+
+.sidebar-list {
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 30px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.sidebar-item {
+  font-size: 20px;
+}
+
+.contenttitle h1 {
+  font-size: 50px;
+
+}
+
+.thread {
+
+height: 130rem;
+  overflow: scroll;
+  word-wrap: break-word;
+
+  min-width: 48%;
+  /*幅を常に50％表示させる*/
+  max-width: 48%;
+  
+  background-color: rgb(231, 231, 231);
+
+  border-left: 1px solid lightblue;
+
+
+}
+
+
+
+.trend {
+  
+  font-size: 35px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.sidebar-list {
+  font-size: 30px;
+}
+
+.rank {
+  overflow: scroll;
+  height: 130rem;
+  min-width: 36%;
+  /*幅を常に50％表示させる*/
+  max-width: 36%;
+}
+
+
+
+
+a.btn-gradient {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  background-image: -webkit-linear-gradient(110deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+a.btn-gradient span {
+  background-image: -webkit-gradient(linear, left top, right top, from(#8da9e9), to(#e4efe9));
+  background-image: -webkit-linear-gradient(left, #3565d4 0%, #e4efe9 100%);
+  background-image: linear-gradient(to right, #93a5cf 0%, #e4efe9 100%);
+  -webkit-text-fill-color: transparent;
+}
+
+a.btn-gradient:hover {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
